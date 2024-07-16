@@ -1,0 +1,101 @@
+/* src/Home.css */
+
+body {
+  background-color: beige;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.home-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h2 {
+  margin: 10px 0;
+}
+
+.product-card img {
+  width: 100%;
+  max-width: 150px; /* Ajustar el tamaño máximo de la imagen */
+  height: auto;
+  margin: 10px 0;
+}
+
+/* Estilos específicos para cada imagen */
+.product-card img[src*="Coca"] {
+  max-width: 100px;
+}
+
+.product-card img[src*="SpriteZero"] {
+  max-width: 85px;
+}
+
+.product-card img[src*="fanta"] {
+  max-width: 140px;
+}
+
+.product-card img[src*="pepsi"] {
+  max-width: 130px;
+}
+
+.product-card img[src*="Powerade"] {
+  max-width: 250px;
+}
+
+
+
+.product-card a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+.product-card a:hover {
+  text-decoration: underline;
+}
