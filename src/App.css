@@ -1,12 +1,9 @@
-/* src/App.css */
-
-/* General styles */
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f5f5dc; /* Color beige */
+  background-color: #f5f5dc; 
   color: #343a40;
   display: flex;
   justify-content: center;

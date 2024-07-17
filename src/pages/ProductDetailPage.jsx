@@ -36,6 +36,7 @@ const ProductDetailPage = () => {
           <h2>{product.nombre}</h2>
           <p>{product.descripcion}</p>
           <p>Precio: ${product.precio}</p>
+          <p>Litros: {product.lts}</p>
           <button onClick={handleCompraClick}>Comprar</button>
         </div>
       ) : (
